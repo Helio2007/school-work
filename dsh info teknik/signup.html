@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <title>Facebook Sign Up</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signup-box">
+            <div class="signup-container">
+                <h1 class="signup-header">Sign Up</h1>
+                <p class="signup-subheader">It's quick and easy.</p>
+            </div>
+
+            <hr>
+            
+            <form>
+                <div class="name">
+                    <input type="text" class="full-width name-input" placeholder="First name" required>
+                    <input type="text" class="full-width name-input" placeholder="Last name" required>
+                </div>
+                <input type="email" class="full-width" placeholder="Mobile number or email" required>
+                <input type="password" class="full-width" placeholder="New password" required>
+                
+                <div class="birthday">
+                    <p class="small-p">Birthday</p>
+                    <input type="date" class="full-width date-input" required>
+                </div>
+                
+                <div class="gender-container">
+                    <p class="small-p">Gender</p>
+                    <div class="gender">
+                        <label for="male">Male
+                            <input type="radio" id="male" name="gender">
+                        </label>
+                        
+
+                        <label for="female">Female
+                            <input type="radio" id="female" name="gender">
+                        </label>
+                        
+                    </div>
+                </div>
+
+                <div class="more-info">
+                    <p>People who use Facebook may have uploaded your contact information to Facebook. Learn more.</p>
+                    <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+                </div>
+                
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
