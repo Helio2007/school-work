@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacion Div</title>
+    <style>
+        .moving-div {
+            width: 100px;
+            height: 100px;
+            background-color: #4CAF50;
+            animation: move 5s linear infinite;
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="moving-div"></div>
+</body>
+</html>

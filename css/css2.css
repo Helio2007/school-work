@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar-menu {
+    background: #fff;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 2px -4px 13px 0px #000;
+    padding: 10px 0;
+}
+
+/* Flexbox for Navbar */
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo img {
+    width: 120px;
+}
+
+/* Menu and Title */
+.menu-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Title Styling */
+.head {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 30px;
+    white-space: nowrap;
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #6c5ce7;
+}
+
+/* Footer */
+.footer {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social img {
+    width: 40px;
+    transition: transform 0.3s;
+}
+
+.social img:hover {
+    transform: scale(1.1);
+}
